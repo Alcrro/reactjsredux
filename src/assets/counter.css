@@ -1,0 +1,31 @@
+.container-outer {
+  display: inline-block;
+}
+.inner {
+  display: grid;
+  /* justify-content: center; */
+  grid-template-columns: 4rem 4rem 4rem 4rem;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.inner button {
+  background-color: rgb(89, 98, 107);
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.inner .equals {
+  width: 130px;
+  background-color: rgb(32, 166, 219);
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.screen {
+  background-color: aliceblue;
+  text-align: end;
+  padding: 1rem 0.5rem;
+  margin: 0.5rem 0;
+}
